@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -272,10 +273,11 @@ export default function Home() {
               />
               <span className="text-xl font-bold" style={{ fontFamily: 'var(--font-poppins)' }}>Goalzy</span>
             </div>
-            <div className="flex space-x-6 text-[#BDC3C7]">
-              <a href="#" className="hover:text-[#6C63FF] transition-colors">Privacy</a>
-              <a href="#" className="hover:text-[#6C63FF] transition-colors">Terms</a>
-              <a href="#" className="hover:text-[#6C63FF] transition-colors">Contact</a>
+            <div className="flex flex-wrap justify-center gap-6 text-[#BDC3C7]">
+              <Link href="/privacy" className="hover:text-[#6C63FF] transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="hover:text-[#6C63FF] transition-colors">Terms of Service</Link>
+              <Link href="/payment-policy" className="hover:text-[#6C63FF] transition-colors">Payment Policy</Link>
+              <a href="mailto:support@goalzy.app" className="hover:text-[#6C63FF] transition-colors">Contact</a>
             </div>
           </div>
           <div className="mt-8 text-center text-[#BDC3C7]">
