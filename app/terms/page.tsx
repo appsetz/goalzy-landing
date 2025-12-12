@@ -31,7 +31,7 @@ export default function TermsOfService() {
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: 'var(--font-poppins)' }}>
-          Terms of Service
+          Terms and Conditions
         </h1>
         <p className="text-[#BDC3C7] mb-8">Last updated: December 12, 2025</p>
 
@@ -183,7 +183,7 @@ export default function TermsOfService() {
               If you have any questions about these Terms of Service, please contact us at:
             </p>
             <p className="text-[#BDC3C7] leading-relaxed mt-2">
-              Email: support@goalzy.app
+              Email: info.appsetz@gmail.com
             </p>
           </section>
         </div>

@@ -156,7 +156,7 @@ export default function PaymentPolicy() {
               To request a refund:
             </p>
             <ol className="list-decimal list-inside text-[#BDC3C7] space-y-2 ml-4">
-              <li>Contact our support team at support@goalzy.app</li>
+              <li>Contact our support team at info.appsetz@gmail.com</li>
               <li>Provide your payment transaction ID and account details</li>
               <li>Explain the reason for the refund request</li>
               <li>We will review your request within 5-7 business days</li>
@@ -207,7 +207,7 @@ export default function PaymentPolicy() {
               For payment-related queries or issues, please contact:
             </p>
             <ul className="list-none text-[#BDC3C7] space-y-2">
-              <li><strong className="text-[#F0F0F0]">Email:</strong> support@goalzy.app</li>
+              <li><strong className="text-[#F0F0F0]">Email:</strong> info.appsetz@gmail.com</li>
               <li><strong className="text-[#F0F0F0]">Response Time:</strong> Within 24-48 hours</li>
             </ul>
             <p className="text-[#BDC3C7] leading-relaxed mt-4">

@@ -160,7 +160,7 @@ export default function PrivacyPolicy() {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-[#BDC3C7] leading-relaxed mt-2">
-              Email: privacy@goalzy.app
+              Email: info.appsetz@gmail.com
             </p>
           </section>
         </div>

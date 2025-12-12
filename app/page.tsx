@@ -275,9 +275,9 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-[#BDC3C7]">
               <Link href="/privacy" className="hover:text-[#6C63FF] transition-colors">Privacy Policy</Link>
-              <Link href="/terms" className="hover:text-[#6C63FF] transition-colors">Terms of Service</Link>
-              <Link href="/payment-policy" className="hover:text-[#6C63FF] transition-colors">Payment Policy</Link>
-              <a href="mailto:support@goalzy.app" className="hover:text-[#6C63FF] transition-colors">Contact</a>
+              <Link href="/terms" className="hover:text-[#6C63FF] transition-colors">Terms & Conditions</Link>
+              <Link href="/cancellations-refunds" className="hover:text-[#6C63FF] transition-colors">Cancellations & Refunds</Link>
+              <Link href="/contact" className="hover:text-[#6C63FF] transition-colors">Contact Us</Link>
             </div>
           </div>
           <div className="mt-8 text-center text-[#BDC3C7]">
