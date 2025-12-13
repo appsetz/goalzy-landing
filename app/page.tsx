@@ -23,7 +23,7 @@ export default function Home() {
               <a href="#screenshots" className="hover:text-[#6C63FF] transition-colors">Screenshots</a>
               <a href="#pricing" className="hover:text-[#6C63FF] transition-colors">Pricing</a>
               <a href="#download" className="bg-gradient-to-r from-[#6C63FF] to-[#4ECDC4] px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:shadow-[#6C63FF]/50 transition-all">
-                Download
+                Download APK
               </a>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
                   href="#download"
                   className="bg-gradient-to-r from-[#6C63FF] to-[#4ECDC4] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#6C63FF]/50 transition-all transform hover:scale-105"
                 >
-                  Get Started Free
+                  Download APK
                 </a>
                 <a
                   href="#features"
@@ -239,23 +239,32 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ fontFamily: 'var(--font-poppins)' }}>
             Ready to Transform Your Habits?
           </h2>
-          <p className="text-xl text-[#BDC3C7] mb-12">
+          <p className="text-xl text-[#BDC3C7] mb-4">
             Join thousands of users building better habits with Goalzy
+          </p>
+          <p className="text-sm text-[#6C63FF] mb-12 font-semibold">
+            🚀 Play Store Coming Soon! Download APK below
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#"
-              className="bg-gradient-to-r from-[#6C63FF] to-[#4ECDC4] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#6C63FF]/50 transition-all transform hover:scale-105"
+              href="/goalzy.apk"
+              download="goalzy.apk"
+              className="bg-gradient-to-r from-[#6C63FF] to-[#4ECDC4] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#6C63FF]/50 transition-all transform hover:scale-105 flex items-center justify-center gap-2"
             >
-              Download for Android
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+              Download APK
             </a>
-            <a
-              href="#"
-              className="border-2 border-[#6C63FF] px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#6C63FF]/10 transition-all"
+            <span
+              className="border-2 border-[#6C63FF] px-8 py-4 rounded-full font-semibold text-lg opacity-50 cursor-not-allowed inline-flex items-center justify-center"
             >
-              Download for iOS
-            </a>
+              iOS Coming Soon
+            </span>
           </div>
+          <p className="text-xs text-[#BDC3C7] mt-6">
+            Note: Enable "Install from Unknown Sources" in your Android settings to install the APK
+          </p>
         </div>
       </section>
 
