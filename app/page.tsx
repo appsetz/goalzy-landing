@@ -2,8 +2,57 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Goalzy",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "Android",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "150"
+    },
+    "description": "Build better habits with AI-powered coaching. Track your progress, get personalized insights, and achieve your goals with Goalzy.",
+    "screenshot": "https://goalzy.app/images/Goalzy-logo.png",
+    "featureList": [
+      "AI Habit Coach",
+      "Smart Analytics",
+      "Goal Breakdown",
+      "AI Insights",
+      "Streak Tracking",
+      "AI Smart Setup"
+    ]
+  };
+
+  const organizationData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Goalzy",
+    "url": "https://goalzy.app",
+    "logo": "https://goalzy.app/images/Goalzy-logo.png",
+    "description": "AI-Powered Habit Tracker App",
+    "sameAs": [
+      // Add social media links when available
+    ]
+  };
+
   return (
-    <div className="min-h-screen bg-[#1A1A2E] text-[#F0F0F0]">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
+      />
+      <div className="min-h-screen bg-[#1A1A2E] text-[#F0F0F0]">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#16213E]/95 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -294,6 +343,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }
