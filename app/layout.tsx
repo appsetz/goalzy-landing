@@ -98,11 +98,11 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/manifest.json",
+  themeColor: "#6C63FF",
   viewport: {
     width: "device-width",
     initialScale: 1,
     maximumScale: 5,
-    themeColor: "#6C63FF",
   },
   appleWebApp: {
     capable: true,
