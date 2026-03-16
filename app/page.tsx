@@ -332,6 +332,27 @@ export default function Home() {
           </div>
           <div className="mt-8 text-center text-[#BDC3C7]">
             <p>© 2025 Goalzy. All rights reserved.</p>
+            <p className="text-xs mt-4">
+              This site is protected by reCAPTCHA and the Google{' '}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#6C63FF] hover:underline"
+              >
+                Privacy Policy
+              </a>{' '}
+              and{' '}
+              <a
+                href="https://policies.google.com/terms"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#6C63FF] hover:underline"
+              >
+                Terms of Service
+              </a>{' '}
+              apply.
+            </p>
           </div>
         </div>
       </footer>
